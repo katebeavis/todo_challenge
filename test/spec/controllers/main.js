@@ -2,7 +2,7 @@
 
 describe('Controller: MainCtrl', function () {
 
-  beforeEach(module('mytodoApp'));
+  beforeEach(module('todoApp'));
 
   var MainCtrl,
     scope;

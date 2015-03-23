@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mytodoApp')
+angular.module('todoApp')
   .controller('AboutCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

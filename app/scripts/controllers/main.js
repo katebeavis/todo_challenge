@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('mytodoApp')
+angular.module('todoApp')
   .controller('MainCtrl', function ($scope, localStorageService) {
 
     var todosInStore = localStorageService.get('todos');
