@@ -2,6 +2,7 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -21,12 +22,68 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
-  padding-bottom: 19px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
+
+h2{
+  font-size: 26px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  color: #919191;
+}
+
+.input-group{
+  padding-bottom: 10px;
+  padding-left: 32px;
+}
+
+.form-control{
+  width: 600px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  box-shadow: none
+}
+
+button.btn.btn-danger{
+  background-color: #F2473F;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+button.btn.btn-danger:hover{
+  color: #9F000F;
+}
+
+input.btn.btn-primary{
+  background-color: #66CCCC;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: white;
+  box-shadow: none;
+  border: none;
+}
+
+input.btn.btn-primary:hover{
+  color: #00C5CD;
+}
+
+
+
+
 
 /* Custom page footer */
 .footer {
   padding-top: 19px;
+  margin-top: 30px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
@@ -62,5 +119,33 @@ body {
   .header {
     margin-bottom: 30px;
   }
+
+  /*body{
+    font-family: 'Open Sans', sans-serif;
+  }*/
+
+  ul li a{
+    text-decoration: none;
+    border-width: 1px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    float: right;
+    text-align: center;
+    display: block;
+    line-height: 60px;
+    background-color: #66CCCC;
+    color: #ffffff;
+    margin-left: 10px;
+  }
+
+  ul li a:hover{
+  	color: #00C5CD;
+  }
+
+  .container{
+    margin: auto;
+  }
+
 
 }
