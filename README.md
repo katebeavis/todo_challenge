@@ -1,5 +1,5 @@
-
-# Todo Challenge [![Build Status](https://travis-ci.org/katebeavis/todo_challenge.svg?branch=master)](https://travis-ci.org/katebeavis/todo_challenge)
+[![Code Climate](https://codeclimate.com/github/katebeavis/todo_challenge/badges/gpa.svg)](https://codeclimate.com/github/katebeavis/todo_challenge) [![Build Status](https://travis-ci.org/katebeavis/todo_challenge.svg?branch=master)](https://travis-ci.org/katebeavis/todo_challenge)
+# Todo Challenge
 
 A todo list app that enables you to add and remove items to a list, featuring localstorage to ensure your list is not lost.
 
