@@ -25,7 +25,8 @@ This challenge was to reinforce our knowledge of Angular and Karma testing.
 ## To run
 
 ```
-$ git clone https://github.com/katebeavis/todo_challenge.git
+$ git clone https://github.com/katebeavis/todo_challenge
+$ cd todo_challenge
 $ bower install
 $ npm install
 $ grunt serve --force
