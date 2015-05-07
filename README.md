@@ -3,7 +3,16 @@
 
 A todo list app that enables you to add and remove items to a list, featuring localstorage to ensure your list is not lost.
 
-# Technologies Used
+## Screenshots
+<div align="center">
+  <img width="90%" src="app/images/todo-challenge.png">
+</div>
+
+## Objectives
+
+This challenge was to reinforce our knowledge of Angular and Karma testing.
+
+## Technologies Used
 
 - Angular JS
 - Javascript
@@ -13,10 +22,12 @@ A todo list app that enables you to add and remove items to a list, featuring lo
 - HTML
 - CSS
 
-# To run
+## To run
 
 ```
-bower install
-npm install
-grunt serve
+$ git clone https://github.com/katebeavis/todo_challenge.git
+$ bower install
+$ npm install
+$ grunt serve --force
+visit localhost:9000
 ```
